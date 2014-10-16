@@ -30,6 +30,12 @@ module JavaBuildpack
     # Encapsulates the detect, compile, and release functionality for Tomcat applications.
     class Tomcat < JavaBuildpack::Component::ModularComponent
 
+      def detect
+        # main_class ? JavaMain.to_s.dash_case : nil
+        true
+      end
+
+
       protected
 
       # (see JavaBuildpack::Component::ModularComponent#command)
