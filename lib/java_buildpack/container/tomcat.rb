@@ -16,6 +16,7 @@
 
 require 'java_buildpack/component/modular_component'
 require 'java_buildpack/container'
+require 'java_buildpack/container/java_main'
 require 'java_buildpack/container/tomcat/tomcat_insight_support'
 require 'java_buildpack/container/tomcat/tomcat_instance'
 require 'java_buildpack/container/tomcat/tomcat_lifecycle_support'
