@@ -34,3 +34,4 @@ redis_store:
   database: 0
   timeout: 2000
   connection_pool_size: 2
+access_logging: enabled
